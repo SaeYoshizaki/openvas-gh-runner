@@ -81,7 +81,7 @@ def main() -> None:
             nams=task_name,
             config_id=config_id,
             target_id=target_id,
-            scammer_id=SCANNER_ID,
+            scanner_id=SCANNER_ID,
         )
         task_id = task_resp.get("id")
         if not task_id:
